@@ -1,0 +1,54 @@
+1. OVERVIEW
+
+This program (QuSpace) is designed and implemented as part of my Master's
+Thesis in the Faculty of Information and Natural Sciences at Aalto
+Univercity School of Science and Technology.
+
+The purpose of QuSpace is to provide access to widgets hosted at an
+experimental widget platform called uSpace.
+
+QuSpace is coded on top of Qt software framework and takes advantage of 
+the WebKit Web browser engine in widget rendering. The server side
+communication uses QJson library to parse the messages. QJson is available
+at address http://qjson.sourceforge.net/.
+
+2. COMPILE
+
+To dynamically link against the QJson library it needs to be placed under
+the lib subdirectory. Notes about building the platform specific QJson
+library can be found from the previously mentioned WWW address.
+
+Generate Makefile:
+qmake
+
+Build:
+make
+
+Optionally the project (quspace.pro) file can be opened in QtCreator IDE
+that automates the build process.
+
+3. RUN
+
+The execution of QuSpace requires that the underlying operating system 
+knows where to find the QJson library, e.g., /usr/lib/ in Linux. 
+An other possibility is	to place the QJson library in the same directory 
+where the QuSpace binary resides.
+
+4. COPYRIGHT
+
+Copuright (C) 2010 Jouni Mäenpää
+
+5. COPYING
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="grip_bottomright">image/grip_bottomright_16x16.png</file>
+        <file alias="grip_side">image/grip_side_16x16.png</file>
+        <file alias="uspace_large">image/uspace_icon_48x48.png</file>
+        <file alias="sign_left">image/sign_left_48x48.png</file>
+        <file alias="sign_right">image/sign_right_48x48.png</file>
+        <file alias="arrow_left">image/arrow_left_48x48.png</file>
+        <file alias="arrow_right">image/arrow_right_48x48.png</file>
+        <file alias="arrow_down">image/arrow_down_48x48.png</file>
+        <file alias="arrow_up">image/arrow_up_48x48.png</file>
+        <file alias="test">image/test_icon_48x48.png</file>
+        <file alias="window_close">image/window_close_48x48.png</file>
+        <file alias="window_min">image/window_min_48x48.png</file>
+        <file alias="window_max">image/window_max_48x48.png</file>
+        <file alias="exit_icon">image/exit_icon_48x48.png</file>
+        <file alias="tools_icon">image/tools_icon_48x48.png</file>
+        <file alias="back_icon">image/back_icon_48x48.png</file>
+        <file alias="taskbar_icon_visible">image/taskbar_icon_visible_48x48.png</file>
+        <file alias="taskbar_icon_invisible">image/taskbar_icon_invisible_48x48.png</file>
+    </qresource>
+</RCC>
